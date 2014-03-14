@@ -72,48 +72,77 @@ config.chat
 Features Implemented
 ---------------------
 An extra topic has been implemented.
+
 -Improves the conversation for when the user gets tired of asking the chatBot about itself.
+
 -If the user hints at the chatBot asking them a question, chatBot will ask the user their zodiac sign
 and give the user personality characteristics depending on their specified sign. 
+
 -Example: (Words in italics are the chatBot)
 
 Shouldn't you ask me something about myself..?
+
 *What's your sign?*
+
 I'm a leo
+
 *Oh, a Leo! That means that you are loyal and generous!*
 
 
 5 different responses when user input is outside of topic.
+
 -If the user inputs anything that is outside of the chatBot's topic or does not trip any keywords
 the chatBot will output one of five different responses at random. 
+
 -The different responses were chosen to emphasize the chatBot's self centered persona and will lead the user back to asking the chatBot questions.
+
 -Example:
 
 What kind of food do you like?
+
 *I like Italian food, what do you like?* 
+
 I like steak.
+
 *Let's talk about me some more.*
+
 But you asked what I like...
+
 *That doesn't interest me.*
 
+
 POS Tagging (not fully functional)
+
 -Uses OpenNLP jar files
+
 -Reads the user input, splits the sentence and analyzes each individual word, and categorizes them as their specific sentence parts (verb, noun, etc.)
+
 -(Should) Check if user input was outside of topic, have a predetermined output that will put the users noun and/or verb into the sentence
+
 ie. I like (noun).
+
 *I love (noun)!*
 
+
 GUI (not fully functional)
+
 -(Should) Bring up a simple interface where the user can type into a text field and have the chatBot output display in the text area.
 
 
 Limitations
 -----------
 -ChatBot does not know about a lot of specific topics and will therefore resort back to the randomized responses a lot. 
+
 -Example:
+
 What is your favorite color?
+
 *I'd rather not talk about that.*
+
 It's sunny out today
+
 *Can we talk about something else?*
+
 I can touch my toes
+
 *Let's talk about me some more.*
