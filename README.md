@@ -132,6 +132,19 @@ GUI (not fully functional)
 
 Limitations
 -----------
+-ChatBot sometimes has trouble handling the order of specific wording.
+
+-Example:
+
+My Birthday is today
+
+*I'd rather not talk about that.*
+
+Today is my birthday
+
+*Happy birthday!*
+
+
 -ChatBot does not know about a lot of specific topics and will therefore resort back to the randomized responses a lot. 
 
 -Example:
@@ -147,3 +160,10 @@ It's sunny out today
 I can touch my toes
 
 *Let's talk about me some more.*
+
+-Chatbot sometimes cannot handle specific punctuation.
+
+
+
+
+Created by Madison Cunning
