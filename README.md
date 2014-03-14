@@ -19,54 +19,54 @@ Class Organization
 main.java.chat
 
 ActuallyChat.java
-*Initializes responder that reads the configuration file.
+* Initializes responder that reads the configuration file.
 
 ActuallyResponder.java
-*Reads configuration file for keywords.
-*Differentiates between keywords being a question/statement as well as if the entire input consists of/ends with/starts with the keyword/key phrase
-*Generates a random response if user input is outside of topic.
+* Reads configuration file for keywords.
+* Differentiates between keywords being a question/statement as well as if the entire input consists of/ends with/starts with the keyword/key phrase
+* Generates a random response if user input is outside of topic.
 
 Chat.java
-*Get the sentence from the user return the String of the sentence
+* Get the sentence from the user return the String of the sentence
 
 Main.java
-*Initializes and runs chat.
+* Initializes and runs chat.
 
 Responder.java
-*Reads the configuration file from the system.
+* Reads the configuration file from the system.
 
 
 main.java.chat.components
 GUIDemo.java (Not fully functional)
-*Setup and add components to interface.
-*Create and show interface.
+* Setup and add components to interface.
+* Create and show interface.
 
 Intface.java (Not fully functional)
-*Creates interface.
+* Creates interface.
 
 Keyword.java
-*Creates specifics to differentiate between keywords.
+* Creates specifics to differentiate between keywords.
 
 Response.java
-*Looks for response based on keywords.
+* Looks for response based on keywords.
 
 POS.java (Not fully functional)
-*Reads the user input, splits the sentence and analyzes each individual word, and categorizes them as their specific sentence parts (verb, noun, etc.)
+* Reads the user input, splits the sentence and analyzes each individual word, and categorizes them as their specific sentence parts (verb, noun, etc.)
 
 
 main.java.chat.util
 
 ConfigReader.java
-*Reads the configuration file containing all of the keywords and responses.
+* Reads the configuration file containing all of the keywords and responses.
 
 Util.java
-*Checks if a given string starts with specific input and chooses a random element from a string array to return if not.
+* Checks if a given string starts with specific input and chooses a random element from a string array to return if not.
 
 
 main.resources
 
 config.chat
-*Holds all keywords and responses
+* Holds all keywords and responses
 
 
 Features Implemented
