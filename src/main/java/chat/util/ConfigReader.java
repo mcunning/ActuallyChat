@@ -45,7 +45,6 @@ public final class ConfigReader {
 					
 					List<Response> responsesTarget = new ArrayList<Response>();	
 					String[] responses = configParts[ 5 ].split( "\\[R\\]" );
-					// Start at 1 because the first is nothing
 					for( int i = 1; i < responses.length; i++ )
 					{
 						String[] responseParts = responses[i].split("\\\\\\\\");
@@ -64,21 +63,7 @@ public final class ConfigReader {
 						{
 							questionFlag = Response.QuestionFlag.EITHER_QUESTION_OR_STATEMENT; 
 						}
-						
-						
-						/*switch( responseParts[1] )
-						{
-							case "no":
-								questionFlag = Response.QuestionFlag.STATEMENT_ONLY;
-								break;
-							case "yes":
-								questionFlag = Response.QuestionFlag.QUESTION_ONLY;
-								break;
-							case "no-preference":
-								default:
-									questionFlag = Response.QuestionFlag.EITHER_QUESTION_OR_STATEMENT;
-						}
-						*/	
+
 						String[] responseOptions = responseParts[ 2 ].split("\\|");
 						int responseWeight = Integer.parseInt( responseParts[ 3 ] );
 						responsesTarget.add( new Response( responseKeywords, questionFlag, responseOptions, responseWeight ) );
@@ -141,20 +126,5 @@ public final class ConfigReader {
 			return Keyword.MatchType.CONTAINS;
 		}
 		return Keyword.MatchType.CONTAINS;
-		
-		/*
-		switch(match)
-		{
-			case "starts-with":
-				return Keyword.MatchType.STARTS_WITH;
-			case "ends-with":
-				return Keyword.MatchType.ENDS_WITH;
-			case "exact":
-				return Keyword.MatchType.EXACT;
-			case "contains":
-				default:
-					return Keyword.MatchType.CONTAINS;
-		}
-		*/
 	}
 }

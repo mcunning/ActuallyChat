@@ -1,5 +1,9 @@
 package main.java.chat;
-
+/**
+ * 
+ * Cloned from A2
+ *
+ */
 public interface Responder
 {
     /**

@@ -10,7 +10,8 @@ If you are able to get the ChatBot to ask you about yourself, it will ask you yo
 
 How to Compile and Run the Code
 --------------
-All files in repository must be downloaded (including OpenNLP jar files) and then ran from main.java.chat.Main.java.
+All files in repository must be downloaded (including OpenNLP jar files) and imported into Eclipse.
+Files can then be ran from main.java.chat.Main.java.
 The console window that opens up can then be used to interact with the chatBot.
 
 

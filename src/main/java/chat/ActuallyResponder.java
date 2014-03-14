@@ -1,5 +1,8 @@
 package main.java.chat;
-
+/**
+ * Cloned from A2
+ * Editted by mcunning (collab with alex)
+ */
 import static main.java.chat.util.Util.*;
 
 import java.util.ArrayList;

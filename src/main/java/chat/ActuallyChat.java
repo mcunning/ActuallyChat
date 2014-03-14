@@ -1,6 +1,6 @@
 package main.java.chat;
 /**
- * Checked but Come back to
+ * Cloned from A2
  */
 import java.util.Scanner;
 
@@ -14,7 +14,6 @@ public class ActuallyChat implements Chat
     {
         chat = true;
         scan = new Scanner( System.in );
-        // TODO
     }//Constructor
 
     @Override

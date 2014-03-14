@@ -1,5 +1,8 @@
 package main.java.chat.component;
 
+/**
+ * Cloned from A2
+ */
 import java.util.List;
 
 public class Keyword
